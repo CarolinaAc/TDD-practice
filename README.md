@@ -1,8 +1,8 @@
 ## Building a TDD application using Jest and Enzyme
 
-[ x ] `yarn add --dev react-test-renderer`
-[ x ] `yarn add --dev enzyme enzyme-adapter-react-16`
-[ x ] Add enzyme configuration to `setupTests.js`
+[x] `yarn add --dev react-test-renderer`
+[x] `yarn add --dev enzyme enzyme-adapter-react-16`
+[x] Add enzyme configuration to `setupTests.js`
 
 ```
 import { configure } from 'enzyme'
@@ -11,13 +11,13 @@ import Adapter from 'enzyme-adapter-react-16'
 configure({ adapter: new Adapter() })
 ```
 
-[ x ] `yarn test`
-[ x ] Write tests first, then update component.
-[ x ] Test components using enzyme`shallow`, which creates an instance of a component, but not its children
-[ x ] Test components using enzyme `mount`, which creates an instance of a component and reads its children.
-[ x ] Leave the `wrapper` outside the tests but inside the `describe` block so you don't need to declare it on each of them.
-[ x ] `console.log(wrapper.debug())` will show the component and its children
-[ x ] Create a state counter and test its value, which changes when clicking `increment` and `decrement` buttons to positive numbers only.
+[x] `yarn test`
+[x] Write tests first, then update component.
+[x] Test components using enzyme`shallow`, which creates an instance of a component, but not its children
+[x] Test components using enzyme `mount`, which creates an instance of a component and reads its children.
+[x] Leave the `wrapper` outside the tests but inside the `describe` block so you don't need to declare it on each of them.
+[x] `console.log(wrapper.debug())` will show the component and its children
+[x] Create a state counter and test its value, which changes when clicking `increment` and `decrement` buttons to positive numbers only.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
